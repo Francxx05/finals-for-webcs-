@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bloodveil — Dark Demo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body class="antialiased">
+    
+    <nav class="side-nav collapsed" id="sideNav">
+      <div class="menu-toggle" id="menuToggle">☰ Menu</div>
+      <a href="index.html">Bloom Into You</a>
+      <a href="#about">About</a>
+      <a href="#characters">Characters</a>
+      <a href="#gameplay">Gameplay</a>
+      <a href="#creator">About the Creator</a>
+    </nav>
+
+    <section class="hero-bg flex items-center justify-center">
+      <div class="hero-overlay"></div>
+      <div class="hero-text text-center max-w-2xl px-6">
+        <img
+          src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761330261/BloodVeil_sqxlfv.png"
+          alt="Bloodveil"
+          class="w-full max-w-2xl mx-auto mb-6 rounded-2xl" 
+        />
+        <p class="text-lg md:text-xl text-gray-700 mb-6">
+          A sci-fi story that is about dictatorship, corruption, and betrayal.
+        </p>
+        <a
+          href="artgallery2.html"
+          target="_blank"
+          class="px-6 py-3 rounded-full bg-gray-900 text-white hover:bg-gray-800 transition"
+        >
+          Art Gallery
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 fade-in">
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h2 class="text-4xl font-semibold text-gray-900 mb-6">About the Story</h2>
+        <div class="text-left max-w-3xl mx-auto">
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">
+            A story of corruption, dictatorship, suffering, and betrayal, Bloodveil is the dark counterpart to Bloom Into You. While familiar faces appear as side characters, the focus shifts to the corrupt Aros corporation and its ruthless CEO.
+          </p>
+          <p class="text-gray-600 text-base leading-relaxed mb-4">
+            Aros's one goal is to revolutionize the world by capturing the power of Daniel, an otherworldly being, to unlock humanity's latent potential.
+          </p>
+          <p class="text-gray-600 text-base leading-relaxed">
+            In a world filled with antagonists and anti-heroes, every character walks a line between right and wrong, forcing players to question where true evil lies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="characters" class="py-20 fade-in">
+      <div class="max-w-4xl mx-auto px-6 relative">
+        <h2 class="text-3xl font-semibold text-gray-900 text-center mb-6">Characters</h2>
+        
+        <div class="slide-container">
+          <div class="slide-wrapper" id="charWrapper">
+
+            <div class="slide flex flex-col md:flex-row items-center gap-8">
+              <div class="flex-1 text-left w-full">
+                <h3 class="text-2xl font-semibold mb-2">Robin</h3>
+                <p class="text-gray-600 mb-2">The Tattoo Artist with a Hidden Lab</p>
+                <p class="text-gray-700 text-sm">
+                  Adopted by the CEO of the corrupt Aros corporation, Robin enjoyed a privileged education. However, she was abandoned by her parents, who were horrified by her entity's ability to make people explode with its reflection. She now operates from the shadows, her past a closely guarded secret.
+                </p>
+              </div>
+              <div class="flex-1 w-full">
+                <img
+                  src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333402/robin_art_wjtbny.png"
+                  alt="Robin"
+                  class="w-full h-64 object-cover rounded-lg border border-gray-200 shadow"
+                />
+              </div>
+            </div>
+
+  
+            <div class="slide flex flex-col md:flex-row items-center gap-8">
+              <div class="flex-1 text-left w-full">
+                <h3 class="text-2xl font-semibold mb-2">Alexander (Alex)</h3>
+                <p class="text-gray-600 mb-2">The Betrayed Scientist</p>
+                <p class="text-gray-700 text-sm">
+                  A brilliant former Aros scientist, Alex experimented to replicate the otherworldly power of Daniel, hoping to revolutionize the world. However, he committed treason after a bitter betrayal by the CEO, and now works to undermine the company he once helped build.
+                </p>
+              </div>
+              <div class="flex-1 w-full">
+                <img
+                  src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761330079/alexander_hymzfc.png"
+                  alt="Alexander"
+                  class="w-full h-64 object-cover rounded-lg border border-gray-200 shadow"
+                />
+              </div>
+            </div>
+
+            <div class="slide flex flex-col md:flex-row items-center gap-8">
+              <div class="flex-1 text-left w-full">
+                <h3 class="text-2xl font-semibold mb-2">Daniel</h3>
+                <p class="text-gray-600 mb-2">The Otherworldly Invader</p>
+                <p class="text-gray-700 text-sm">
+                  An antagonist from another dimension where his kind has blue blood and can transform into monstrous beings. Raised by a dictator, Daniel seeks to invade Earth and eradicate humanity, viewing them as a useless and inferior species.
+                </p>
+              </div>
+              <div class="flex-1 w-full">
+                <img
+                  src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333263/dictator_l63gaf.png"
+                  alt="Daniel"
+                  class="w-full h-64 object-cover rounded-lg border border-gray-200 shadow"
+                />
+              </div>
+            </div>
+
+          </div>
+        </div> 
+        <button id="charPrev" class="arrow-btn absolute left-0 top-1/2 -translate-y-1/2 md:-translate-x-12 z-10">&#8592;</button>
+        <button id="charNext" class="arrow-btn absolute right-0 top-1/2 -translate-y-1/2 md:translate-x-12 z-10">&#8594;</button>
+      </div> 
+    </section>
+
+
+    <section id="gameplay" class="py-20 fade-in">
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h2 class="text-4xl font-semibold text-gray-900 mb-6">Gameplay Preview</h2>
+        <div class="relative slide-container">
+          <div class="slide-wrapper" id="gameWrapper">
+            
+            <div class="slide">
+              <img
+                src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761125116/unity_btap7r.jpg"
+                alt="Unity Engine Logo"
+                class="rounded-2xl shadow-lg mx-auto mb-4"
+              />
+              <p class="text-gray-700 mb-4">
+                Bloodveil is being developed in Unity, chosen for its flexibility in crafting both narrative-driven experiences and complex gameplay systems.
+              </p>
+            </div>
+
+            <div class="slide">
+              <img
+                src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761125116/detroit_kszoer.webp"
+                alt="Detroit: Become Human Screenshot"
+                class="rounded-2xl shadow-lg mx-auto mb-4"
+              />
+              <p class="text-gray-700 mb-4">
+                Inspired by the branching narratives and impactful choices of 'Detroit: Become Human', every decision you make in Bloodveil will have lasting consequences, shaping the story and the fate of its characters.
+              </p>
+            </div>
+
+            <div class="slide">
+              <img
+                src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761125116/residentevil_uyqgv7.webp"
+                alt="Resident Evil Screenshot"
+                class="rounded-2xl shadow-lg mx-auto mb-4"
+              />
+              <p class="text-gray-700 mb-4">
+                The gameplay will draw inspiration from the survival horror and resource management mechanics of the 'Resident Evil' series, blending intense action with strategic thinking.
+              </p>
+            </div>
+          </div>
+          <button id="gamePrev" class="arrow-btn absolute left-0 top-1/2 -translate-y-1/2">&#8592;</button>
+          <button id="gameNext" class="arrow-btn absolute right-0 top-1/2 -translate-y-1/2">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="creator" class="py-20 fade-in bg-gray-50">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 px-6">
+        <div class="flex-1 text-left">
+          <h2 class="text-4xl font-semibold text-gray-900 mb-6">About the Creator</h2>
+          <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
+            Hello! I’m <strong>Francheska Rivera</strong>, also known online as <strong>“Juno.”</strong>
+          </p>
+           <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+            That dream eventually became <em>Bloom Into You</em> and its dark counterpart, <em>Bloodveil</em>.
+          </p>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            The concept for Bloodveil first began when I was 13, born from daydreams and unrefined character ideas. It was a fantasy that stayed with me, and now it finally has a name. Bloodveil is currently a work-in-progress game portfolio, and I'm still developing other key characters—like the CEO of Aros, Robin's right-hand man, and Alexander's lover—who will be crucial to the unfolding events of the story.
+          </p>
+        </div>
+        <div class="flex-1 text-center">
+          <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761125117/creatorphoto_zvbu32.jpg" alt="Francheska Rivera" class="rounded-2xl shadow-lg w-full max-w-md mx-auto hover:scale-105 transition-transform duration-500" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-12 text-center border-t border-gray-200 bg-white">
+      <p class="text-gray-600 text-lg mb-2">&copy; 2025 — <strong>Bloodveil</strong></p>
+      <p class="text-gray-500 text-base">Created with by Francheska “Juno” Rivera</p>
+    </footer>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
+
