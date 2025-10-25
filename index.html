@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bloom Into You — Elegant Demo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="antialiased">
+    <nav class="side-nav" id="sideNav">
+      <div class="menu-toggle" id="menuToggle">☰ Menu</div>
+      <a href="bloodveil.html">Bloodveil</a>
+      <a href="#about">About</a>
+      <a href="#characters">Characters</a>
+      <a href="#gameplay">Gameplay</a>
+      <a href="#creator">About the Creator</a>
+    </nav>
+
+    <section class="hero-bg flex items-center justify-center">
+      <div class="hero-overlay"></div>
+      <div class="hero-text text-center max-w-2xl px-6">
+        <img
+          src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761330150/bloomorig_bobitv.png"
+          alt="Bloom Into You"
+          class="w-full max-w-2xl mx-auto mb-6"
+        />
+        <p class="text-lg md:text-xl text-gray-700 mb-6">
+          An emotional story about two women finding warmth and courage in each other — a gentle tale about love and discovery.
+        </p>
+        <a
+          href="artgallery.html"
+          target="_blank"
+          class="px-6 py-3 rounded-full bg-gray-900 text-white hover:bg-gray-800 transition"
+        >
+          Art Gallery
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 fade-in">
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h2 class="text-4xl font-semibold text-gray-900 mb-6">About the Story</h2>
+        <div class="text-left max-w-3xl mx-auto">
+          <p class="text-gray-700 text-lg leading-relaxed mb-4">
+            A quiet story about grief, healing, and love. Bloom follows two women whose lives meet when they need it most.
+          </p>
+          <p class="text-gray-600 text-base leading-relaxed mb-4">
+            Kara, born into privilege, carries the weight of her family’s expectations. As the heir to a powerful company, she hides her true self behind perfection, bound by duty and fear of disappointing those around her.
+          </p>
+          <p class="text-gray-600 text-base leading-relaxed mb-4">
+            Naomi, a college graduate adrift in uncertainty, struggles with regret and the growing distance between her dreams and reality.
+          </p>
+          <p class="text-gray-600 text-base leading-relaxed">
+            When their paths cross, both find comfort in the other’s presence. But as their connection deepens, they’re forced to face the truths they’ve long avoided and discover if love can still bloom in the shadow of grief.
+          </p>
+        </div>
+      </div>
+    </section>
+
+ <section id="characters" class="py-20 fade-in">
+  <div class="max-w-4xl mx-auto px-6 relative">
+    <h2 class="text-3xl font-semibold text-gray-900 text-center mb-6">Characters</h2>
+    
+    <div class="slide-container">
+      <div class="slide-wrapper" id="charWrapper">
+
+        <div class="slide flex flex-col md:flex-row items-center gap-8">
+          <div class="flex-1 text-left w-full">
+            <h3 class="text-2xl font-semibold mb-2">Kara</h3>
+            <p class="text-gray-600 mb-2">Heir to a powerful company</p>
+            <p class="text-gray-700 text-sm">
+              Bound by duty and fear of disappointing those around her, she hides her true self behind perfection.
+            </p>
+          </div>
+          <div class="flex-1 w-full">
+            <img
+              src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761332962/kara_webcs_xn59xq.png"
+              alt="Kara"
+              class="w-full h-64 object-cover rounded-lg border border-gray-200 shadow"
+            />
+          </div>
+        </div>
+
+        <div class="slide flex flex-col md:flex-row items-center gap-8">
+          <div class="flex-1 text-left w-full">
+            <h3 class="text-2xl font-semibold mb-2">Naomi</h3>
+            <p class="text-gray-600 mb-2">A college graduate adrift in uncertainty</p>
+            <p class="text-gray-700 text-sm">
+              Struggles with regret and the growing distance between her dreams and reality.
+            </p>
+          </div>
+          <div class="flex-1 w-full">
+            <img
+              src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333378/naomiwebbie_atq2tz.png"
+              alt="Naomi"
+              class="w-full h-64 object-cover rounded-lg border border-gray-200 shadow"
+            />
+          </div>
+        </div>
+
+      </div>
+    </div> <button id="charPrev" class="arrow-btn absolute left-0 top-1/2 -translate-y-1/2 md:-translate-x-12 z-10">&#8592;</button>
+    <button id="charNext" class="arrow-btn absolute right-0 top-1/2 -translate-y-1/2 md:translate-x-12 z-10">&#8594;</button>
+
+  </div> </section>
+    <section id="gameplay" class="py-20 fade-in">
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h2 class="text-4xl font-semibold text-gray-900 mb-6">Gameplay Preview</h2>
+        <div class="relative slide-container">
+          <div class="slide-wrapper" id="gameWrapper">
+
+            <div class="slide">
+              <img
+                src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333436/unrealengine_ngsacs.jpg"
+                alt="Unreal Engine Logo"
+                class="rounded-2xl shadow-lg mx-auto mb-4"
+              />
+              <p class="text-gray-700 mb-4">
+                Bloom Into You is planned to be developed using Unreal Engine, aiming to deliver cinematic storytelling and emotional realism through detailed environments, expressive animations, and immersive lighting.
+              </p>
+            </div>
+
+            <div class="slide">
+              <img
+                src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333314/lifeisstrange_actwyw.jpg"
+                alt="Life is Strange Screenshot"
+                class="rounded-2xl shadow-lg mx-auto mb-4"
+              />
+              <p class="text-gray-700 mb-4">
+                Inspired by narrative-driven titles such as Life is Strange and Detroit: Become Human, the game will focus on player choices, emotional dialogue, and branching storylines. Every decision will shape how Kara and Naomi’s story unfolds influencing relationships, key events, and the ultimate fate of both characters.
+              </p>
+            </div>
+
+            <div class="slide">
+              <img
+                src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333463/webcsgameplay_dzgv6g.png"
+                alt="Bloom Into You Gameplay Preview"
+                class="rounded-2xl shadow-lg mx-auto mb-4"
+              />
+              <p class="text-gray-700 mb-4">
+                The game will feature multiple endings, including a Normal Ending, a True Ending, and a Bad Ending, allowing players to experience different outcomes based on the choices they make.
+              </p>
+            </div>
+
+          </div>
+
+          <button id="gamePrev" class="arrow-btn absolute left-0 top-1/2 -translatey-1/2">&#8592;</button>
+          <button id="gameNext" class="arrow-btn absolute right-0 top-1/2 -translate-y-1/2">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="creator" class="py-20 fade-in bg-gray-50">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 px-6">
+        
+        <div class="flex-1 text-left">
+          <h2 class="text-4xl font-semibold text-gray-900 mb-6">About the Creator</h2>
+          <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
+            Hello! I’m <strong>Francheska Rivera</strong>, also known online as <strong>“Juno.”</strong>
+          </p>
+          <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+            My passion for games began when I was ten years old, inspired by the <em>Final Fantasy</em> series created by Square Enix. Their storytelling and artistry fueled my love for creating and sparked my fascination with computers, art, and game development.
+          </p>
+          <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+            My path hasn’t been a straight one — I’ve been a STEM student, tried architecture, and then shifted after one semester. But through all the uncertainty, one thing stayed constant: my desire to create games and stories that feel alive.
+          </p>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            That dream eventually became <em>Bloom Into You</em>, a project I began in 2021. It started as an idea for an art portfolio but grew into something more personal — a story that reflects my own journey of doubt, growth, and love. To bring it to life, I formed a small creative team called <strong>MisoSheep</strong>, dedicated to turning Bloom into a heartfelt experience others can connect with.
+          </p>
+        </div>
+
+        
+        <div class="flex-1 text-center">
+          <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761125117/creatorphoto_zvbu32.jpg" alt="Francheska Rivera" class="rounded-2xl shadow-lg w-full max-w-md mx-auto hover:scale-105 transition-transform duration-500" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-12 text-center border-t border-gray-200 bg-white">
+      <p class="text-gray-600 text-lg mb-2">&copy; 2025 — <strong>Bloom Into You</strong></p>
+      <p class="text-gray-500 text-base">Created with by Francheska “Juno” Rivera</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>

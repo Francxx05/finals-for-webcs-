@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Art Gallery — Bloodveil</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body class="antialiased">
+    <nav class="side-nav collapsed" id="sideNav">
+      <div class="menu-toggle" id="menuToggle">☰ Menu</div>
+      <a href="index.html">Bloom Into You</a>
+      <a href="bloodveil.html">Bloodveil</a>
+    </nav>
+
+    <section class="hero-bg flex items-center justify-center">
+      <div class="hero-overlay"></div>
+      <div class="hero-text text-center max-w-2xl px-6">
+        <img
+          src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761330261/BloodVeil_sqxlfv.png"
+          alt="Bloodveil"
+          class="w-full max-w-2xl mx-auto mb-6 rounded-2xl"
+        />
+        <p class="text-lg md:text-xl text-gray-700 mb-6">
+          Welcome to the Bloodveil Art Gallery. A collection of concept art, character sketches, and dark moments.
+        </p>
+        <a
+          href="bloodveil.html"
+          class="px-6 py-3 rounded-full bg-gray-900 text-white hover:bg-gray-800 transition"
+        >
+          Back to Main Page
+        </a>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-20 fade-in">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-semibold text-gray-900 mb-10 text-center">
+          Gallery
+        </h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6" id="galleryGrid">
+          
+          <div class="gallery-item w-full aspect-[4/5] bg-gray-100 rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105">
+            <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761330079/alexander_hymzfc.png" alt="Alexaxnder" class="w-full h-full object-cover">
+          </div>
+          
+          <div class="gallery-item w-full aspect-[4/5] bg-gray-100 rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105">
+            <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333402/robin_art_wjtbny.png" alt="Robin" class="w-full h-full object-cover">
+          </div>
+          
+          <div class="gallery-item w-full aspect-[4/5] bg-gray-100 rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105">
+            <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761125115/robinconcept_dbw1ah.png" alt="Robin Concept" class="w-full h-full object-cover">
+          </div>
+          
+          <div class="gallery-item w-full aspect-[4/5] bg-gray-100 rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105">
+            <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761125115/robin_s9jdzs.png" alt="Robin" class="w-full h-full object-cover">
+          </div>
+
+          <div class="gallery-item w-full aspect-[4/5] bg-gray-100 rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105">
+            <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761330079/alexander_hymzfc.png" alt="Joseph" class="w-full h-full object-cover">
+          </div>
+
+          <div class="gallery-item w-full aspect-[4/5] bg-gray-100 rounded-lg overflow-hidden shadow-md cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105">
+            <img src="https://res.cloudinary.com/dafru6ugn/image/upload/v1761333263/dictator_l63gaf.png" alt="Daniel" class="w-full h-full object-cover">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-12 text-center border-t border-gray-200 bg-white">
+      <p class="text-gray-600 text-lg mb-2">&copy; 2025 — <strong>Bloodveil</strong></p>
+      <p class="text-gray-500 text-base">Created with by Francheska “Juno” Rivera</p>
+    </footer>
+
+    <div id="lightbox" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-[100] hidden">
+      <button id="closeLightbox" class="absolute top-6 right-6 text-white text-5xl font-bold transition-transform hover:scale-110">&times;</button>
+      <div class="relative">
+        <img id="lightboxImg" src="" alt="Zoomed Artwork" class="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl">
+      </div>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
